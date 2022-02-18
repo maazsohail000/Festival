@@ -1,0 +1,42 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.section2{
+    text-align: center;
+    flex-wrap: wrap;
+}
+nav{
+  background-color: #fff!important;
+}
+.btn{
+  color: black;
+  transition: 0.5s;
+}
+p{
+  color: #333;
+
+}
+.btn:hover{
+  background-color: black;
+  color: green;
+  box-shadow: 0 0 10px black;
+}
+.section3{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}   
+.testimonial{
+width: 434px;
+height: 350px;
+box-shadow: 10px 9px 20px 0px rgba(0,0,0,0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.testimonial img{
+border-radius: 60%;
+}

@@ -1,0 +1,89 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.section2{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.section3{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.section4{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+p{
+  color: #333;
+
+}
+
+
+.content1{
+  width: 50%;
+}
+/* section5 start */
+.gallery{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          width: 100%;
+      flex-wrap: wrap;
+        }
+      .gallery img{
+        margin-right: 5%;
+        margin-top: 1%;
+      }
+      .secion5{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+/* section5 end */
+
+/* section 6 start */
+.section6{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+/* section 6 end */
+.card{
+  flex-wrap: wrap;
+}
+
+.btn{
+  color: black;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: black;
+  color: green;
+  box-shadow: 0 0 10px black;
+}
+
+.section7{
+  background-image: url("./imge/buddah2.png");
+  width: 100%;
+  color: whitesmoke;
+  height: 22rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 9rem;
+  }

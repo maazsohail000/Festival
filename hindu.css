@@ -1,0 +1,85 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.section2{
+
+  border: 2px solid;
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.content1{
+  width: 50%;
+}
+.gallery1{
+          display: flex;
+          justify-content: space-between;
+          padding-top: 2rem;
+          align-items: center;
+          flex-wrap: wrap;
+          flex-direction: row;
+          width: 100%;
+      }
+      .btn{
+        color: black;
+        transition: 0.5s;
+      }
+      .btn:hover{
+        background-color: black;
+        color: green;
+        box-shadow: 0 0 10px black;
+      }
+      .secion5{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      
+.section6{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+  
+  .card{
+    flex-wrap: wrap;
+  }
+
+.section3{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.section4{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.section7{
+  background-image: url("https://livedemo00.template-help.com/wt_prod-23025/images/slider-business-slide-3-1920x800.jpg");
+  width: 100%;
+  color: whitesmoke;
+  height: 22rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 9rem;
+  }
+  
+
+
+  p{
+    color: #333;
+  
+  }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paynment page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a19edf877.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <!-- form start -->
+    <form action="#">
+        <!-- container start -->
+        <div class="container">
+
+            <div class="firstline">
+
+                <h1>Billing Address</h1>
+                <!-- label1 start  name -->
+                <label for="name" class="label1" id="fname">
+
+                    <i class="fa fa-user"></i>&nbsp;&nbsp; Full Name <br> <br>
+                    <input type="text" placeholder="Enter name">
+                </label> <br> <br>
+                <!-- label 1 end -->
+                <!-- label2 start email-->
+                <label for="email" class="label2">
+
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp; Email <br><br>
+                    <input type="text" placeholder="Enter Email" required>
+                </label><br> <br>
+
+                <!-- label2 end-->
+
+                <!--<label 3 start  address -->
+                <label for="address" class="label3">
+
+                    <i class="fa fa-address-card-o"></i>&nbsp;&nbsp; Address <br><br>
+                    <input type="email" placeholder="Enter Address" required>
+                </label> <br><br>
+                <!--<label 3 end  -->
+
+                <!-- label 4 start  city -->
+                <label for="city" class="label4">
+
+                    <i class="fa fa-institution"></i>&nbsp;&nbsp;city <br><br>
+                    <input type="text" placeholder="Enter city" required>
+                </label> <br><br>
+                <!-- label 4 end -->
+
+                <!-- label5 start  state -->
+               
+
+                <!-- label  5 end -->
+            </div>
+
+
+            <div class="secondline">
+                <h3>Payment Method</h3>
+                Accepted card <br> <br>
+
+                <!-- label6 start icon -->
+                <label class="label6" for="">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>&nbsp;&nbsp;
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>&nbsp;&nbsp;
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>&nbsp;&nbsp;
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>&nbsp;&nbsp;
+                </label> <br><br>
+                <!-- label 6 end -->
+
+                <!-- label7 start  name on card -->
+                <label class="label7" for="name on card">
+                    Name on card <br> <br>
+                    <input type="text" placeholder="Enter card name"><br>
+                </label><br><br>
+                <!-- label7 end -->
+
+                <!-- label8 start  credit card number -->
+                <label class="label8" for="">
+                    Credit card number <br> <br>
+                    <input type="text" placeholder="Enter card number"><br>
+                </label><br><br>
+                <!-- label8 end -->
+
+                <!-- label 9 start  expo month-->
+                <label class="label9" for="">
+                    Exp Month <br> <br>
+                    <input type="text" placeholder=" Enter expo month "><br>
+                </label><br><br>
+                <!-- label 9 end -->
+
+            </div>
+
+        </div>
+        <div class="Payment">
+
+            <div class="state" style="display: flex; flex-direction: column;">
+                <label for="">
+                    state
+                </label>
+                <input type="text" placeholder="NY">
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+
+                <label for="">
+                    zip
+                </label>
+                <input type="text" placeholder="10001">
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="">
+                    expo year
+                </label>
+                <input type="text" placeholder="2018">
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="cv">
+                    cv
+                </label>
+                <input type="text" placeholder="352">
+            </div>
+
+        </div>
+        <!-- container end -->
+        
+        <button class="btn">continue to checkout</button>
+    </form>
+    <!-- form end -->
+</body>
+
+</html>

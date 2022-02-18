@@ -1,0 +1,66 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+p{
+  color: #333;
+
+}
+.section2{
+  flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+.content1{
+  width: 50%;
+}
+
+.gallery1{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%;
+      }
+      .secion5{
+          display: flex;
+          justify-content: space-between;
+      }
+      .gallery1 img{
+        margin-right: 1%;
+      }
+
+.section6{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+  
+  .card{
+    flex-wrap: wrap;
+  }
+  
+.btn{
+  color: black;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: black;
+  color: green;
+  box-shadow: 0 0 10px black;
+}
+
+.section7{
+  background-image: url("https://ld-wt73.template-help.com/wt_prod-30129/images/background/bg-4-1920x930.jpg");
+  width: 100%;
+  color: whitesmoke;
+  height: 22rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 9rem;
+  }
+  

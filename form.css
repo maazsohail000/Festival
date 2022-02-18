@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+    .btn{
+        background-color: red;
+        color: black;
+        transition: 0.5s;
+      }
+      .btn{
+        background-color: black;
+        color: green;
+        box-shadow: 0 0 10px black;
+      }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    form{
+        background-color:  #f2f2f2;
+        padding: 5px 20px 15px 20px;
+    }
+input{
+    width: 20rem;
+    height: 3rem;
+}
+.label5 input{
+ width: 9rem;
+}
+p{
+  color: #333;
+
+}
+
+.btn {
+  background-color: #555;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+ .btn:hover {
+  background-color: #777;
+}
+.secondline{
+    padding-top: 1.2rem;
+    /* width: 60%; */
+}
+.Payment input{
+    width: 100%;
+
+}
+.Payment{
+    display: flex;
+    flex-wrap: wrap;
+}
